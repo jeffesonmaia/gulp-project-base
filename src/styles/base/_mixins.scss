@@ -1,1 +1,18 @@
-// Mixins go here
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin flexbox{}
