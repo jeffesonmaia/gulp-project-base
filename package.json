@@ -1,5 +1,5 @@
 {
-  "name": "Gulp Project Base",
+  "name": "gulp-project-base",
   "version": "1.0.0",
   "description": "Repository with resources to start a web project.",
   "main": "gulpfile.js",
